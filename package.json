@@ -2,10 +2,10 @@
   "name": "y",
   "version": "1.0.0",
   "description": "учебный проект",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "hint": "jshint *.js"
+    "hint": "jshint components/**/*.js"
   },
   "repository": {
     "type": "git",

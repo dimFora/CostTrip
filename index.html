@@ -1,11 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CostTrip</title>
-</head>
-<body>
-    <h1>Привет!</h1>
+<!DOCTYPE HTML>
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="components/menu/menu.css">
+    <link rel="stylesheet" href="components/app/app.css">
+</head>
+
+<body>
+    <div class="display">
+        <h2>Выбранные элементы меню:</h2>
+        <h5 class="display__state js-state"></h5>
+    </div>
+
+    <div class="menu js-menu">
+        <div class="menu__title">Сладости (нажми меня)!</div>
+        <ul class="menu__list">
+            <li class="menu__item">Торт</li>
+            <li class="menu__item">Пончик</li>
+            <li class="menu__item">Пирожное</li>
+            <li class="menu__item">Профитроль</li>
+            <li class="menu__item">Мармелад</li>
+        </ul>
+    </div>
+
+    <script src="components/menu/menu.js"></script>
+    <script src="components/app/app.js"></script>
 </body>
 </html>
